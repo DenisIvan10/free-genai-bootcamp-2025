@@ -1,0 +1,10 @@
+curl http://localhost:9000/api/chat -d '{
+  "model": "llama3.2:1b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Tell me a joke"
+    }
+  ],
+  "stream": false
+}'
